@@ -17,7 +17,7 @@ function throttle(fn, gapTime) {
 			fn.apply(this, arguments);
 			_lastTime = _nowTime;
 		}
-	}
+	};
 };
 
 module.exports = {

@@ -14,7 +14,7 @@ const debounce = function deb(wait, func) {
 		if (timer) {
 			clearTimeout(timer);
 			timer = null;
-		};
+		}
 
 		timer = setTimeout(() => {
 			func.apply(this, arguments)
